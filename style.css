@@ -1,0 +1,638 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 750px;
+    width: 100%;
+    background-image: url(image/itogfon.jpg);
+    background-size: 100%;
+
+
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 0.7%;
+}
+nav>p{
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5%;
+
+    
+}
+header>nav>img{
+    margin-left: 5%;
+}
+header>div{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+color: white;
+height: 55%;
+width: 65%;
+border: white 7px solid;
+position: absolute;
+top: 35%;
+left: 17.5%;
+}
+header>div>p{
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 20px;
+}
+#pnature{
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 90px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    
+}
+#info>div{
+    width: 50%;
+    background-color: rgb(214, 211, 211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hislo{
+    font-size: 12.5rem;
+    font-weight: 900;
+    line-height: 0.8;
+    color: white;
+    margin: 0px;
+    margin-top: 90px;
+    width: 68%;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+#infotxt{
+    width: 70%;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 29px;
+}
+#infozagolovok{
+    width: 70%;
+    font-size: 1.875rem;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+#divimg{
+    display: flex;
+}
+#divimg1{
+    width: 50%;
+    background-image: url(image/img1.webp);
+    background-size: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+#divimg1>p{
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.8;
+    letter-spacing: 3px;
+}
+#divimg2{
+    width: 50%;
+    background-image: url(image/img2.jpg);
+    background-size: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+#divimg2>p{
+    font-family: 'Playfair Display', serif ;
+    word-wrap: break-word;
+    font-weight: 500;
+    font-size: 3.1rem;
+    line-height: 1.2;
+    text-align: center;
+    
+}
+#divimg2>input{
+    background-color: rgba(255, 255, 255, 0.007);
+    border: solid 2px rgb(46, 46, 46);
+    width: 190px;
+    height: 50px;
+    letter-spacing: 3px;
+    font-size: 0.875rem;
+    margin-bottom: 15px;
+}
+#cards{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+
+}
+#cards1{
+    width:26%;
+     height:360 px;
+     background-image: url(image/cards1.jpeg);
+     background-size: 100%;
+     margin-bottom: 4%;
+}
+     #cards2{
+        width:26%;
+         height:360 px;
+         background-image: url(image/cards2.jpeg);
+         background-size: 100%;
+         margin-bottom: 4%;
+}
+#cards3{
+    width:26%;
+     height:360 px;
+     background-image: url(image/cards3.jpeg);
+     background-size: 100%;
+     margin-bottom: 4%;
+ }
+ #cards4{
+      width:26%;
+      height:360 px;
+      background-image: url(image/cards4.jpeg);
+     background-size: 100%;
+     margin-bottom: 2%;
+ }
+ #cards5{
+     width:26%;
+    height:360 px;
+    background-image: url(image/cards5.jpeg);
+     background-size: 100%;
+     margin-bottom: 2%;
+}
+#cards6{
+    width:26%;
+   height:360 px;
+   background-image: url(image/cards6.jpeg);
+    background-size: 100%;
+    margin-bottom: 2%;
+}
+#dopinfo{
+    background-color: rgb(214, 211, 211);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+}
+#dop{
+ width: 40%;
+ 
+}
+#doplogo{
+    font-weight: bold;
+ font-size: 2.25rem;
+ font-family: 'Playfair Display', serif;
+}
+#doptxt{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+#imgend{
+    display: flex;
+
+}
+#imgblock1{
+    width: 50%;
+    height: 800px;
+    background-image: url(image/imgend1.jpeg);
+    background-size: 110%;
+}
+#imgblock2{
+    width: 50%;
+    height: 800px;
+    background-image: url(image/endomage2.png);
+    background-size: 110%;
+    color: white;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+#div2pend1{
+    font-family: 'Playfair Display', serif ;
+    font-size: 36px;
+    margin: 5px;
+    margin-top: 17%;
+}
+#imgblock2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#emaillist{
+    width: 100%;
+    height: 370px;
+    background-image: url(image/emailfon.jpeg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#emtxt>p{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+#inputend{
+width: 95%;
+height: 60%;
+margin-left: 5%;
+
+}
+#email{
+    height: 30%;
+    width: 26%;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgba(255, 255, 255, 0.63);
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    border: solid 3px white ;
+}
+#embut{
+    height: 34%;
+    width: 10%; 
+    background-color: white  ;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+#embut:hover{
+    background-color: rgba(41, 102, 33, 0.795);
+    transition: 1s;
+
+}
+footer{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+#fp{
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+}
+#spiski{
+    display: flex;
+}
+#spiski>div>ul{
+    list-style-type: none;
+}
+#ulus{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+#footli{
+    color: rgb(110, 110, 110);
+}
+#socseti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#inputfoot>input{
+background-color: rgb(52, 146, 52);
+border: none;
+height: 30px;
+width: 100px;
+border-radius: 20px 20px 20px 20px;
+color: aliceblue;
+}
+@media(min-width:1250px){
+    header>div{
+        position: absolute;
+        top: 24%;
+    }
+}
+@media(max-width:1025px){
+   header{
+    height: 650px;
+   }
+   header>div{
+    position: absolute;
+    top: 15%;
+    height: 450px;
+   }
+   #divimg1{
+    height: 540px;
+   }
+   #divimg2{
+    height: 540px;
+   }
+   #imgblock1{
+    height: 700px;
+   }
+   #imgblock2{
+    height: 700px;
+   }
+}
+@media (max-width:930px){
+    header{
+        height: 500px;
+    }
+    #pnature{
+        font-size: 50px;
+    }
+    header>div{
+        height: 300px;
+        position: absolute;
+        top: 10%;
+        
+    }
+    header>div>p{
+        font-size: 18px;
+    }
+    #divimg1{
+        height: 400px;
+    }
+    #divimg2{
+        height: 400px;
+    }
+    #cards1{
+        width: 55%;
+        height: 470px;
+    }
+    #cards2{
+        width: 55%;
+        height: 470px; 
+    }
+    #cards3{
+        width: 55%;
+        height: 470px; 
+    }
+    #cards4{
+        width: 55%;
+        height: 470px; 
+    }
+    #cards5{
+        width: 55%;
+        height: 470px; 
+    }
+    #cards6{
+        width: 55%;
+        height: 470px; 
+    }
+    #cards{
+        height: 3000px;
+    }
+    #imgblock1{
+        height: 500px;
+    }
+    #imgblock2{
+        height: 500px;
+    }
+    #embut{
+        width: 13%;
+    }
+    footer{
+        height: 200px;
+    }
+}
+@media(max-width:541px){
+    header{
+    height: 250px;
+    }
+    #pnature{
+        font-size: 28px;
+    }
+    header>div>p{
+        font-size: 14px;
+    }
+    header>div{
+        height: 180px;
+        position: absolute;
+        top: 5%;
+        border-width: 3px;
+    }
+    #hislo{
+        font-size: 100px;
+    }
+    #divimg1>p{
+        line-height: 1.2rem;
+        font-size: 10px;
+    }
+    #divimg1{
+        height: 200px ;
+    }
+    #divimg2{
+        height: 200px;
+    }
+    #divimg2>p{
+        font-size: 25px;
+    }
+    #infotxt{
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 14px;
+    }
+    #cards1{
+        height: 300px ;
+    }
+    #cards2{
+        height: 300px ;
+    }
+    #cards3{
+        height: 300px ;
+    }
+    #cards4{
+        height: 300px ;
+    }
+    #cards5{
+        height: 300px ;
+    }
+    #cards6{
+        height: 300px ;
+    }
+    #cards{
+        height: 2000px;
+    }
+    #doptxt{
+        font-size: 11px;
+    }
+    #doplogo{
+        font-size: 24px;
+    }
+    #imgblock1{
+        height: 250px;
+    }
+    #imgblock2{
+        height: 250px;
+    }
+    #emaillist{
+        height: 200px;
+    }
+    #fp{
+        font-size: 19px;
+    }
+    #ulus{
+        font-size: 16px;
+    }
+    #footli{
+        font-size: 12px;
+    }
+    #socseti>div>img{
+        height: 36px;
+        width: 36px;
+    }
+    #socseti>div{
+        display: flex;
+        flex-direction: column;
+    }
+    #inputfoot>input{
+        height: 40px;
+        margin-top: 2%;
+    }
+    #email{
+        width: 50%;
+        height: 45%;
+    }
+    #embut{
+        width: 30%;
+        height: 45%;
+
+    }
+}
+@media(max-width:394px){
+    #inputfoot>input{
+        font-size: 11px;
+        width: 60px;
+        height: 40px;
+        margin-top: 2%;
+    }
+    #socseti>div>img{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media(max-width:361px){
+    #inputfoot>input{
+        margin: 0px;
+    
+    }
+    #inputfoot>input{
+        width: 0px;
+        height: 0px;
+    }
+    #divimg2>input{
+        width: 60%;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(max-width:280px){
+    header{
+       height: 180px; 
+    }
+    nav>img{
+        height: 25px;
+        width: 50px;
+    }
+    nav>p{
+        font-size: 20px;
+    }
+    #pnature{
+        font-size: 18px;
+    }
+    header>div>p{
+        font-size: 10px;
+    }
+    header>div{
+        position: absolute;
+        top: 4%;
+        height: 135px;
+    }
+    #hislo{
+        font-size: 70px;
+        margin: 25px;
+    }
+    #infozagolovok{
+        margin: 10px;
+    }
+    #divimg1{
+        height: 150px;
+    }
+    #divimg2{
+        height: 150px;
+    }
+    #divimg2>input{
+        font-size: 8px;
+    }
+    #divimg1>p{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    #cards1{
+        height: 200px;
+    }
+    #cards2{
+        height: 200px;
+    }
+    #cards3{
+        height: 200px;
+    }
+    #cards4{
+        height: 200px;
+    }
+    #cards5{
+        height: 200px;
+    }
+    #cards6{
+        height: 200px;
+    }
+    #cards{
+        height: 1300px;
+    }
+    #doplogo{
+        font-size: 16px;
+    }
+    #doptxt{
+        font-size: 10px;
+    }
+    #imgblock1{
+        height: 180px;
+    }
+    #imgblock2{
+        height: 180px;
+    }
+    #embut{
+        width: 33%;
+    }
+    #fp{
+        font-size:0px;
+        margin: -17px;
+    }
